@@ -2,7 +2,8 @@ const url = 'https://pokeapi.co/api/v2/pokemon/'
 function capitalize(word) {
     return word[0].toUpperCase() + word.slice(1);
 }
-let numeroPokemon = 1
+
+let numeroPokemon = 2
 function escojePokemon(){
     let N = prompt("Escribe el numero de pokemon")
     numeroPokemon = N
